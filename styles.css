@@ -1,101 +1,39 @@
-* {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+.navbar-header > .navbar-brand{
+ font-weight: 600;
+ font-size: 2em;
+}
+.container-fluid{
+    background-color: lightgray;
+   }
 
-h1{
+.text-center{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.text-fill{
+    height: 1000px;
+    font-size: 1.2em;
+}
+.marginset{
+    margin: 30px;
+}
+.col-xs-12{
+    padding: 10px;
+}
+.navbar-nav{
     text-align: center;
 }
-.box1{
-    position: relative;
-    width: 31%;
-    background-color: grey;
-    border: 2px black solid;
-    margin: 10px; 
-    float: left;
-    padding-top: 14px;
+.hrhr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 2px solid #323232;
 }
-.small1{
-    width: 100px;
-    position: absolute;
-    top: -1px;
-    right: -1.5px;
-    background-color: coral;
-    border: 2px black solid;
-    text-align: center;
-    margin: 0px;
-    height: 30px;
-    line-height: 30px;
+.hh{
+    font-size: 1.2em;
+    font-weight: 600;
 }
-.box2{
-    position: relative;
-    width: 31%;
-    background-color: grey;
-    border: 2px black solid;
-    margin: 10px; 
-    float: left;
-    padding-top: 14px;
-}
-.small2{
-    width: 100px;
-    background-color:red;
-    border: 2px black solid;
-    text-align: center;
-    margin: 0px;
-    height: 30px;
-    position: absolute;
-    top: -1px;
-    right: -2px;
-    line-height: 30px;
-}
-.box3{
-    position: relative;
-    width: 31%;
-    background-color: grey;
-    border: 2px black solid;
-    margin: 10px; 
-    float: left;
-    padding-top: 14px;
-}
-.small3{
-    width: 100px;
-    background-color:yellow;
-    border: 2px black solid;
-    text-align: center;
-    margin: 0px;
-    height: 30px;
-    position: absolute;
-    top: -1px;
-    right: -1px;
-    line-height: 30px;
-}
-.inner{
-    padding: 20px;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .box1{
-        width: 47%;
-    }
-    .box2{
-        width: 47%;
-    }
-    .box3{
-        width: 96%;
-    }
-  }
-
 @media (max-width: 767px) {
-.box1{
-    float: none;
-    width: 90%;
-}
-.box2{
-    float: none;
-    width: 90%;
-}
-.box3{
-    float: none;
-    width: 90%;
-}  
+    .marginset{
+        margin: 50px;
+    }
 }
